@@ -1,0 +1,77 @@
+
+.Name {
+    border: none;
+    border-radius: 5px;
+    color: blueviolet;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: text-shadow 0.4s ease;
+  }
+  
+  .Name:hover {
+ text-shadow: 0 0 20px rgba(98, 0, 234, 1.5); /* Glow effect */
+  }
+  .Home{
+    
+    border: none;
+    border-radius: 5px;
+    color: blueviolet;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+    transition: text-shadow 0.4s ease;
+  }
+  .Home:hover{
+    text-shadow: 0 0 20px rgba(98, 0, 234, 1);
+  }
+  .About{
+
+    border: none;
+    border-radius: 5px;
+    color: blueviolet;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+    transition: text-shadow 0.4s ease;
+  }
+  .About:hover{
+    text-shadow: 0 0 20px rgba(98, 0, 234, 1);
+  }
+  .Services{
+    border: none;
+    border-radius: 5px;
+    color: blueviolet;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+    transition: text-shadow 0.4s ease;
+  }
+ .Services:hover{
+    text-shadow: 0 0 20px rgba(98, 0, 234, 1);
+  }
+  .Portfolio{
+    border: none;
+    border-radius: 5px;
+    color: blueviolet;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+    transition: text-shadow 0.4s ease;
+  }
+  .Portfolio:hover{
+    text-shadow: 0 0 20px rgba(98, 0, 234, 1);
+  }
+  .Contact{
+    border: none;
+    border-radius: 5px;
+    color: blueviolet;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+    transition: text-shadow 0.4s ease;
+  }
+ .Contact:hover{
+    text-shadow: 0 0 20px rgba(98, 0, 234, 1);
+  }
