@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './Component/Navbar'
-import Contact from './Component/Contact'
-import Whoiam from './Component/Whoiam'
+
+import Home from './Home'
+
 
 
 function App() {
@@ -12,9 +12,7 @@ function App() {
 
   return (
     <>
-   <Navbar/>
-  <Whoiam/>
-   <Contact/>
+ <Home/>
     </>
   )
 }

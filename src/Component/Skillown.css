@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: "DM-sans", sans-serif;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 0 30px;
+}
+
+.wrapper {
+  width: 33.3%;
+  height: 100%;
+  padding: 10px;
+}
+
+.name {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+}
+.name:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 10px);
+  height: 1px;
+  background-color: #000;
+  bottom: -4px;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  max-height: 300px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1.4px 1.7px rgba(0, 0, 0, 0.017), 0 3.3px 4px rgba(0, 0, 0, 0.024), 0 6.3px 7.5px rgba(0, 0, 0, 0.03), 0 11.2px 13.4px rgba(0, 0, 0, 0.036), 0 20.9px 25.1px rgba(0, 0, 0, 0.043), 0 50px 60px rgba(0, 0, 0, 0.06);
+}
+.box .hide {
+  opacity: 0;
+}
+.box .frame {
+  position: absolute;
+  border: 1px solid #fff;
+  z-index: 2;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box h2, .box p {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  width: 100%;
+  transition: opacity 0.2s, transform 0.3s;
+}
+.box h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.box p {
+  bottom: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.box:hover {
+  transition: all 0.3s ease-in-out;
+}
+.box:hover:before {
+  transition: all 0.3s ease-in-out;
+}
+.box img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+.box img:hover {
+  transition: all 0.3s ease-in-out;
+}
+.box img:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.box img:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.html h2 {
+  top: 70%;
+  transform: translate3d(0, 60px, 0);
+  text-align: center;
+}
+.html p {
+  opacity: 0;
+  bottom: 0;
+  transform: translate3d(0, -10px, 0);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.html:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  z-index: 2;
+  bottom: -100%;
+  left: 0;
+}
+.html:hover:before {
+  bottom: 0;
+}
+.html:hover h2 {
+  bottom: 40px;
+  transform: translate3d(0, -80px, 0);
+}
+.html:hover p {
+  opacity: 1;
+  transform: translate3d(0, -30px, 0);
+}
+.css h2 {
+  top: 70%;
+  transform: translate3d(0, 60px, 0);
+  text-align: center;
+}
+.css p {
+  opacity: 0;
+  bottom: 0;
+  transform: translate3d(0, -10px, 0);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.css:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  z-index: 2;
+  bottom: -100%;
+  left: 0;
+}
+.css:hover:before {
+  bottom: 0;
+}
+.css:hover h2 {
+  bottom: 40px;
+  transform: translate3d(0, -80px, 0);
+}
+.css:hover p {
+  opacity: 1;
+  transform: translate3d(0, -30px, 0);
+}
+.js h2 {
+  top: 70%;
+  transform: translate3d(0, 60px, 0);
+  text-align: center;
+}
+.js p {
+  opacity: 0;
+  bottom: 0;
+  transform: translate3d(0, -10px, 0);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.js:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  z-index: 2;
+  bottom: -100%;
+  left: 0;
+}
+.js:hover:before {
+  bottom: 0;
+}
+.js:hover h2 {
+  bottom: 40px;
+  transform: translate3d(0, -80px, 0);
+}
+.js:hover p {
+  opacity: 1;
+  transform: translate3d(0, -30px, 0);
+}
+.mongo h2 {
+  top: 70%;
+  transform: translate3d(0, 60px, 0);
+  text-align: center;
+}
+.mongo p {
+  opacity: 0;
+  bottom: 0;
+  transform: translate3d(0, -10px, 0);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.mongo:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  z-index: 2;
+  bottom: -100%;
+  left: 0;
+}
+.mongo:hover:before {
+  bottom: 0;
+}
+.mongo:hover h2 {
+  bottom: 40px;
+  transform: translate3d(0, -80px, 0);
+}
+.mongo:hover p {
+  opacity: 1;
+  transform: translate3d(0, -30px, 0);
+}
+.npm h2 {
+  top: 70%;
+  transform: translate3d(0, 60px, 0);
+  text-align: center;
+}
+.npm p {
+  opacity: 0;
+  bottom: 0;
+  transform: translate3d(0, -10px, 0);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.npm:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  z-index: 2;
+  bottom: -100%;
+  left: 0;
+}
+.npm:hover:before {
+  bottom: 0;
+}
+.npm:hover h2 {
+  bottom: 40px;
+  transform: translate3d(0, -80px, 0);
+}
+.npm:hover p {
+  opacity: 1;
+  transform: translate3d(0, -30px, 0);
+}
+.react h2 {
+  top: 70%;
+  transform: translate3d(0, 60px, 0);
+  text-align: center;
+}
+.react p {
+  opacity: 0;
+  bottom: 0;
+  transform: translate3d(0, -10px, 0);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.react:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  z-index: 2;
+  bottom: -100%;
+  left: 0;
+}
+.react:hover:before {
+  bottom: 0;
+}
+.react:hover h2 {
+  bottom: 40px;
+  transform: translate3d(0, -80px, 0);
+}
+.react:hover p {
+  opacity: 1;
+  transform: translate3d(0, -30px, 0);
+}
+
+
+
+@media screen and (max-width: 880px) {
+    .wrapper {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .wrapper {
+      width: 100%;
+    }
+  }
